@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lGuLyDTiVepnVfSbnmz0uTuZRDGyY6KLadUZcZHQE1A=",
+  "Source": "CourseMicroservices.Catalog",
+  "BasePath": "_content/CourseMicroservices.Catalog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

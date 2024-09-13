@@ -1,2 +1,0 @@
-Services
-  Catalog Api --> http://localhost:5011
