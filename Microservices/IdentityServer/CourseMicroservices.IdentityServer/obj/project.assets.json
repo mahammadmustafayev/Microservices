@@ -2431,6 +2431,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Course.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Course.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Course.Shared.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -7258,10 +7271,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Course.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/Course.Shared/Course.Shared.csproj",
+      "msbuildProject": "../../Shared/Course.Shared/Course.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Course.Shared >= 1.0.0",
       "IdentityServer4.AspNetIdentity >= 4.0.0",
       "Microsoft.AspNetCore.Authentication.Google >= 3.1.5",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.5",
@@ -7280,9 +7299,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\CourseMicroservices.IdentityServer.csproj",
-      "projectName": "CourseMicroservices.IdentityServer",
-      "projectPath": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\CourseMicroservices.IdentityServer.csproj",
+      "projectUniqueName": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj",
+      "projectName": "Course.IdentityServer",
+      "projectPath": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj",
       "packagesPath": "C:\\Users\\musta\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
@@ -7304,7 +7323,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\Shared\\Course.Shared\\Course.Shared.csproj": {
+              "projectPath": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\Shared\\Course.Shared\\Course.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

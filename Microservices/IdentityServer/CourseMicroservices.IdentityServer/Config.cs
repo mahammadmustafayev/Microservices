@@ -5,7 +5,7 @@
 using IdentityServer4.Models;
 using System.Collections.Generic;
 
-namespace CourseMicroservices.IdentityServer
+namespace Course.IdentityServer
 {
     public static class Config
     {

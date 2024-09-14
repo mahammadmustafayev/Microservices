@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Shared", "Shared\Cou
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{724DA5B1-B026-4959-B557-23358ED8B0C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMicroservices.IdentityServer", "IdentityServer\CourseMicroservices.IdentityServer\CourseMicroservices.IdentityServer.csproj", "{F1F99E5C-8210-4B37-B531-784B52A25834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.IdentityServer", "IdentityServer\CourseMicroservices.IdentityServer\Course.IdentityServer.csproj", "{F1F99E5C-8210-4B37-B531-784B52A25834}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

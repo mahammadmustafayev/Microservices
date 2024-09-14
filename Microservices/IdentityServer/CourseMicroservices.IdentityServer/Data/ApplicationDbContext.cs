@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Course.IdentityServer.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using CourseMicroservices.IdentityServer.Models;
 
-namespace CourseMicroservices.IdentityServer.Data
+namespace Course.IdentityServer.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\CourseMicroservices.IdentityServer.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\identityserver\\coursemicroservices.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\CourseMicroservices.IdentityServer.csproj|solutionrelative:identityserver\\coursemicroservices.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\identityserver\\coursemicroservices.identityserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj|solutionrelative:identityserver\\coursemicroservices.identityserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\CourseMicroservices.IdentityServer.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\identityserver\\coursemicroservices.identityserver\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\CourseMicroservices.IdentityServer.csproj|solutionrelative:identityserver\\coursemicroservices.identityserver\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\identityserver\\coursemicroservices.identityserver\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj|solutionrelative:identityserver\\coursemicroservices.identityserver\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Program.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\CourseMicroservices.IdentityServer\\Program.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Program.cs",
-              "RelativeToolTip": "IdentityServer\\CourseMicroservices.IdentityServer\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "SignUpDto.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Dtos\\SignUpDto.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\CourseMicroservices.IdentityServer\\Dtos\\SignUpDto.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Dtos\\SignUpDto.cs",
+              "RelativeToolTip": "IdentityServer\\CourseMicroservices.IdentityServer\\Dtos\\SignUpDto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwAkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T07:14:56.758Z",
+              "WhenOpened": "2024-09-14T08:29:23.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Startup.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\CourseMicroservices.IdentityServer\\Startup.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Startup.cs",
-              "RelativeToolTip": "IdentityServer\\CourseMicroservices.IdentityServer\\Startup.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCEAAAAkAAAA",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\CourseMicroservices.IdentityServer\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Controllers\\UserController.cs",
+              "RelativeToolTip": "IdentityServer\\CourseMicroservices.IdentityServer\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAYwDYAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T07:12:26.478Z",
+              "WhenOpened": "2024-09-14T08:28:23.822Z",
               "EditorCaption": ""
             }
           ]

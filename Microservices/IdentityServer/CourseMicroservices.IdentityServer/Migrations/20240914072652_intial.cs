@@ -1,7 +1,7 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+using System;
 
-namespace CourseMicroservices.IdentityServer.Migrations
+namespace Course.IdentityServer.Migrations
 {
     public partial class intial : Migration
     {

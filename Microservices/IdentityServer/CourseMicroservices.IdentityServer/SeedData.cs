@@ -2,18 +2,18 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using System;
-using System.Linq;
-using System.Security.Claims;
+using Course.IdentityServer.Data;
+using Course.IdentityServer.Models;
 using IdentityModel;
-using CourseMicroservices.IdentityServer.Data;
-using CourseMicroservices.IdentityServer.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
+using System;
+using System.Linq;
+using System.Security.Claims;
 
-namespace CourseMicroservices.IdentityServer
+namespace Course.IdentityServer
 {
     public class SeedData
     {
