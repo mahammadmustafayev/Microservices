@@ -1,1 +1,2 @@
 CatalogAPI --- http://localhost:5011/swagger/index.html
+IdentityServer --- https://localhost:5001
