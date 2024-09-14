@@ -1,2 +1,3 @@
 CatalogAPI --- http://localhost:5011/swagger/index.html
 IdentityServer --- https://localhost:5001
+PhotoStockAPI ---  http://localhost:5012/swagger/index.html 

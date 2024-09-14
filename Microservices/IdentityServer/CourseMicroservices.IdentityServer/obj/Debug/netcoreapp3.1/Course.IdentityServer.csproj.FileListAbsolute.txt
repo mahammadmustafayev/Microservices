@@ -141,3 +141,5 @@ C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\IdentityServer\Co
 C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\IdentityServer\CourseMicroservices.IdentityServer\obj\Debug\netcoreapp3.1\Course.IdentityServer.dll
 C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\IdentityServer\CourseMicroservices.IdentityServer\obj\Debug\netcoreapp3.1\Course.IdentityServer.pdb
 C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\IdentityServer\CourseMicroservices.IdentityServer\obj\Debug\netcoreapp3.1\Course.IdentityServer.genruntimeconfig.cache
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\IdentityServer\CourseMicroservices.IdentityServer\bin\Debug\netcoreapp3.1\Course.Shared.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\IdentityServer\CourseMicroservices.IdentityServer\bin\Debug\netcoreapp3.1\Course.Shared.pdb

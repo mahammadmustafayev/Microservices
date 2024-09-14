@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "nnoj+Nm8QAlASpQNlGzJUI1POe+9MqESkK+T71kenQo=",
+  "Source": "CourseMicroservices.PhotoStock",
+  "BasePath": "_content/CourseMicroservices.PhotoStock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CourseMicroservices.PhotoStock\\wwwroot",
+      "Source": "CourseMicroservices.PhotoStock",
+      "ContentRoot": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\Services\\PhotoStock\\CourseMicroservices.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/CourseMicroservices.PhotoStock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

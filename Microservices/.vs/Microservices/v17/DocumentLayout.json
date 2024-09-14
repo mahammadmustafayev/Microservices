@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\identityserver\\coursemicroservices.identityserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj|solutionrelative:identityserver\\coursemicroservices.identityserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\identityserver\\coursemicroservices.identityserver\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj|solutionrelative:identityserver\\coursemicroservices.identityserver\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDF76A49-9D60-48C9-9C5E-5BB88026A7A9}|Services\\PhotoStock\\CourseMicroservices.PhotoStock\\CourseMicroservices.PhotoStock.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\photostock\\coursemicroservices.photostock\\controllers\\photoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDF76A49-9D60-48C9-9C5E-5BB88026A7A9}|Services\\PhotoStock\\CourseMicroservices.PhotoStock\\CourseMicroservices.PhotoStock.csproj|solutionrelative:services\\photostock\\coursemicroservices.photostock\\controllers\\photoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SignUpDto.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Dtos\\SignUpDto.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\CourseMicroservices.IdentityServer\\Dtos\\SignUpDto.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Dtos\\SignUpDto.cs",
-              "RelativeToolTip": "IdentityServer\\CourseMicroservices.IdentityServer\\Dtos\\SignUpDto.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAzwAkAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T08:29:23.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\CourseMicroservices.IdentityServer\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Controllers\\UserController.cs",
-              "RelativeToolTip": "IdentityServer\\CourseMicroservices.IdentityServer\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAYwDYAAABoAAAA",
+              "Title": "PhotosController.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\PhotoStock\\CourseMicroservices.PhotoStock\\Controllers\\PhotosController.cs",
+              "RelativeDocumentMoniker": "Services\\PhotoStock\\CourseMicroservices.PhotoStock\\Controllers\\PhotosController.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\PhotoStock\\CourseMicroservices.PhotoStock\\Controllers\\PhotosController.cs",
+              "RelativeToolTip": "Services\\PhotoStock\\CourseMicroservices.PhotoStock\\Controllers\\PhotosController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBsAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T08:28:23.822Z",
+              "WhenOpened": "2024-09-14T17:48:37.748Z",
               "EditorCaption": ""
             }
           ]
