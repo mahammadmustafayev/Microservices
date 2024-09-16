@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDF76A49-9D60-48C9-9C5E-5BB88026A7A9}|Services\\PhotoStock\\CourseMicroservices.PhotoStock\\CourseMicroservices.PhotoStock.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\photostock\\coursemicroservices.photostock\\controllers\\photoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDF76A49-9D60-48C9-9C5E-5BB88026A7A9}|Services\\PhotoStock\\CourseMicroservices.PhotoStock\\CourseMicroservices.PhotoStock.csproj|solutionrelative:services\\photostock\\coursemicroservices.photostock\\controllers\\photoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\basket\\coursemicroservices.basket\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|solutionrelative:services\\basket\\coursemicroservices.basket\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\basket\\coursemicroservices.basket\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|solutionrelative:services\\basket\\coursemicroservices.basket\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\basket\\coursemicroservices.basket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|solutionrelative:services\\basket\\coursemicroservices.basket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PhotosController.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\PhotoStock\\CourseMicroservices.PhotoStock\\Controllers\\PhotosController.cs",
-              "RelativeDocumentMoniker": "Services\\PhotoStock\\CourseMicroservices.PhotoStock\\Controllers\\PhotosController.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\PhotoStock\\CourseMicroservices.PhotoStock\\Controllers\\PhotosController.cs",
-              "RelativeToolTip": "Services\\PhotoStock\\CourseMicroservices.PhotoStock\\Controllers\\PhotosController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBsAAABaAAAA",
+              "DocumentIndex": 1,
+              "Title": "BasketService.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Services\\BasketService.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\CourseMicroservices.Basket\\Services\\BasketService.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Services\\BasketService.cs",
+              "RelativeToolTip": "Services\\Basket\\CourseMicroservices.Basket\\Services\\BasketService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCEAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T17:48:37.748Z",
+              "WhenOpened": "2024-09-16T17:21:13.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\CourseMicroservices.Basket\\Program.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Program.cs",
+              "RelativeToolTip": "Services\\Basket\\CourseMicroservices.Basket\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:41:38.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasketsController.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Controllers\\BasketsController.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\CourseMicroservices.Basket\\Controllers\\BasketsController.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Controllers\\BasketsController.cs",
+              "RelativeToolTip": "Services\\Basket\\CourseMicroservices.Basket\\Controllers\\BasketsController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAvwBgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:04:29.822Z",
               "EditorCaption": ""
             }
           ]

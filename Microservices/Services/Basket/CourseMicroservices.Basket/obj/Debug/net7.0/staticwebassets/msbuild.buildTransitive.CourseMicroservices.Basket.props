@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CourseMicroservices.Basket.props" />
+</Project>
