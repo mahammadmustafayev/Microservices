@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CourseMicroservices.Catalog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bda417045c6bb529560eb543d430423e48ef7830")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f613f06d8e7654c0ed17dd0320d3920c7402136d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CourseMicroservices.Catalog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CourseMicroservices.Catalog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\basket\\coursemicroservices.basket\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|solutionrelative:services\\basket\\coursemicroservices.basket\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\basket\\coursemicroservices.basket\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|solutionrelative:services\\basket\\coursemicroservices.basket\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\basket\\coursemicroservices.basket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|solutionrelative:services\\basket\\coursemicroservices.basket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{828238E4-2F32-4A04-9C6B-646649532C91}|Services\\Discount\\CourseMicroservices.Discount\\CourseMicroservices.Discount.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\discount\\coursemicroservices.discount\\scripts\\dbdiscount sql.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{828238E4-2F32-4A04-9C6B-646649532C91}|Services\\Discount\\CourseMicroservices.Discount\\CourseMicroservices.Discount.csproj|solutionrelative:services\\discount\\coursemicroservices.discount\\scripts\\dbdiscount sql.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BasketService.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Services\\BasketService.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\CourseMicroservices.Basket\\Services\\BasketService.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Services\\BasketService.cs",
-              "RelativeToolTip": "Services\\Basket\\CourseMicroservices.Basket\\Services\\BasketService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCEAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:21:13.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\CourseMicroservices.Basket\\Program.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Program.cs",
-              "RelativeToolTip": "Services\\Basket\\CourseMicroservices.Basket\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:41:38.985Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BasketsController.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Controllers\\BasketsController.cs",
-              "RelativeDocumentMoniker": "Services\\Basket\\CourseMicroservices.Basket\\Controllers\\BasketsController.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Controllers\\BasketsController.cs",
-              "RelativeToolTip": "Services\\Basket\\CourseMicroservices.Basket\\Controllers\\BasketsController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAvwBgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:04:29.822Z",
+              "Title": "dbDiscount sql.txt",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Discount\\CourseMicroservices.Discount\\Scripts\\dbDiscount sql.txt",
+              "RelativeDocumentMoniker": "Services\\Discount\\CourseMicroservices.Discount\\Scripts\\dbDiscount sql.txt",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Discount\\CourseMicroservices.Discount\\Scripts\\dbDiscount sql.txt",
+              "RelativeToolTip": "Services\\Discount\\CourseMicroservices.Discount\\Scripts\\dbDiscount sql.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-18T15:21:53.299Z",
               "EditorCaption": ""
             }
           ]
