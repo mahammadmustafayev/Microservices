@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CourseMicroservices.Order.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+540668209a5c20a52cd2be5e55977040500b3679")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ac5e71a12975e6126d4314ac7cf3effc55cccdc")]
 [assembly: System.Reflection.AssemblyProductAttribute("CourseMicroservices.Order.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CourseMicroservices.Order.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

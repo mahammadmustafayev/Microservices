@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED76CBB4-0A50-43AE-B27F-186351230553}|Services\\FakePayment\\CourseMicroservices.FakePayment\\CourseMicroservices.FakePayment.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\fakepayment\\coursemicroservices.fakepayment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ED76CBB4-0A50-43AE-B27F-186351230553}|Services\\FakePayment\\CourseMicroservices.FakePayment\\CourseMicroservices.FakePayment.csproj|solutionrelative:services\\fakepayment\\coursemicroservices.fakepayment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\gateways\\course.gateway\\configuration.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|solutionrelative:gateways\\course.gateway\\configuration.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\gateways\\course.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|solutionrelative:gateways\\course.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\FakePayment\\CourseMicroservices.FakePayment\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Services\\FakePayment\\CourseMicroservices.FakePayment\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\FakePayment\\CourseMicroservices.FakePayment\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Services\\FakePayment\\CourseMicroservices.FakePayment\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAOAAAA",
+              "Title": "configuration.development.json",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\configuration.development.json",
+              "RelativeDocumentMoniker": "Gateways\\Course.Gateway\\configuration.development.json",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\configuration.development.json",
+              "RelativeToolTip": "Gateways\\Course.Gateway\\configuration.development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-20T17:43:42.267Z",
+              "WhenOpened": "2024-09-20T18:09:07.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\Program.cs",
+              "RelativeDocumentMoniker": "Gateways\\Course.Gateway\\Program.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\Program.cs",
+              "RelativeToolTip": "Gateways\\Course.Gateway\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:05:50.373Z",
               "EditorCaption": ""
             }
           ]

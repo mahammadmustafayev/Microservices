@@ -37,19 +37,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMicroservices.Discoun
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{75EE1061-37B3-4ABB-A7EB-CD070D1FC6FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMicroservices.Order.API", "Services\Order\CourseMicroservices.Order.API\CourseMicroservices.Order.API.csproj", "{92E8E965-6780-41F4-9AFD-D99E5893B36C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMicroservices.Order.API", "Services\Order\CourseMicroservices.Order.API\CourseMicroservices.Order.API.csproj", "{92E8E965-6780-41F4-9AFD-D99E5893B36C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMicroservices.Order.Application", "Services\Order\CourseMicroservices.Order.Application\CourseMicroservices.Order.Application.csproj", "{C3F80AF4-E036-47CE-A720-6B001AE4BBFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMicroservices.Order.Application", "Services\Order\CourseMicroservices.Order.Application\CourseMicroservices.Order.Application.csproj", "{C3F80AF4-E036-47CE-A720-6B001AE4BBFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMicroservices.Order.Domain", "Services\Order\CourseMicroservices.Order.Domain\CourseMicroservices.Order.Domain.csproj", "{206C0D7E-A852-4445-BA71-A46271BA190E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMicroservices.Order.Domain", "Services\Order\CourseMicroservices.Order.Domain\CourseMicroservices.Order.Domain.csproj", "{206C0D7E-A852-4445-BA71-A46271BA190E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMicroservices.Order.Domain.Core", "Services\Order\CourseMicroservices.Order.Domain.Core\CourseMicroservices.Order.Domain.Core.csproj", "{0BA478D8-DDC5-4E6C-B284-5D6E9D6E3E94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMicroservices.Order.Domain.Core", "Services\Order\CourseMicroservices.Order.Domain.Core\CourseMicroservices.Order.Domain.Core.csproj", "{0BA478D8-DDC5-4E6C-B284-5D6E9D6E3E94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMicroservices.Order.Infastructure", "Services\Order\CourseMicroservices.Order.Infastructure\CourseMicroservices.Order.Infastructure.csproj", "{EF4A57F7-855A-4222-A7A9-14FCC4365C25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMicroservices.Order.Infastructure", "Services\Order\CourseMicroservices.Order.Infastructure\CourseMicroservices.Order.Infastructure.csproj", "{EF4A57F7-855A-4222-A7A9-14FCC4365C25}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FakePayment", "FakePayment", "{FED60762-EE41-407E-96A5-6A1B8D548BE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseMicroservices.FakePayment", "Services\FakePayment\CourseMicroservices.FakePayment\CourseMicroservices.FakePayment.csproj", "{ED76CBB4-0A50-43AE-B27F-186351230553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMicroservices.FakePayment", "Services\FakePayment\CourseMicroservices.FakePayment\CourseMicroservices.FakePayment.csproj", "{ED76CBB4-0A50-43AE-B27F-186351230553}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{79F758D1-E7A6-409E-AAF3-FACB1A71452B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Gateway", "Gateways\Course.Gateway\Course.Gateway.csproj", "{3BB14E6B-53B7-491E-904E-8C76C0388F97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,10 @@ Global
 		{ED76CBB4-0A50-43AE-B27F-186351230553}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED76CBB4-0A50-43AE-B27F-186351230553}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED76CBB4-0A50-43AE-B27F-186351230553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB14E6B-53B7-491E-904E-8C76C0388F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB14E6B-53B7-491E-904E-8C76C0388F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB14E6B-53B7-491E-904E-8C76C0388F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB14E6B-53B7-491E-904E-8C76C0388F97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +136,7 @@ Global
 		{EF4A57F7-855A-4222-A7A9-14FCC4365C25} = {75EE1061-37B3-4ABB-A7EB-CD070D1FC6FA}
 		{FED60762-EE41-407E-96A5-6A1B8D548BE9} = {CD17F405-AE91-4140-A889-C89D56AAFAB0}
 		{ED76CBB4-0A50-43AE-B27F-186351230553} = {FED60762-EE41-407E-96A5-6A1B8D548BE9}
+		{3BB14E6B-53B7-491E-904E-8C76C0388F97} = {79F758D1-E7A6-409E-AAF3-FACB1A71452B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7611A231-C3A7-47EC-BA99-17633C5C6D45}
