@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/znTh1HZCfakEC6ZrNdhlsM7O5xNStAjscD7RdnCT8M=",
+  "Source": "CourseMicroservices.FakePayment",
+  "BasePath": "_content/CourseMicroservices.FakePayment",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

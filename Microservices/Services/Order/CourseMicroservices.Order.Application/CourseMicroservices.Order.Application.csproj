@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\Course.Shared\Course.Shared.csproj" />
+    <ProjectReference Include="..\CourseMicroservices.Order.Domain\CourseMicroservices.Order.Domain.csproj" />
+    <ProjectReference Include="..\CourseMicroservices.Order.Infastructure\CourseMicroservices.Order.Infastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Consumers\" />
+  </ItemGroup>
+
+</Project>

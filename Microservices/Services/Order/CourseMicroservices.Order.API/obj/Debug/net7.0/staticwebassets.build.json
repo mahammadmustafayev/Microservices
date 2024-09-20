@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IzKP1jnXN+gfFh2WT1y1qpt1fsA/54OuCHtjV2FInoc=",
+  "Source": "CourseMicroservices.Order.API",
+  "BasePath": "_content/CourseMicroservices.Order.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

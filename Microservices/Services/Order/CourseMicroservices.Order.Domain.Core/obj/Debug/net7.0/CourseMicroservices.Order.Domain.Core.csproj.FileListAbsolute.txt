@@ -1,0 +1,12 @@
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.Domain.Core\bin\Debug\net7.0\CourseMicroservices.Order.Domain.Core.deps.json
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.Domain.Core\bin\Debug\net7.0\CourseMicroservices.Order.Domain.Core.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.Domain.Core\bin\Debug\net7.0\CourseMicroservices.Order.Domain.Core.pdb
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.Domain.Core\obj\Debug\net7.0\CourseMicroservices.Order.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.Domain.Core\obj\Debug\net7.0\CourseMicroservices.Order.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.Domain.Core\obj\Debug\net7.0\CourseMicroservices.Order.Domain.Core.AssemblyInfo.cs
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.Domain.Core\obj\Debug\net7.0\CourseMicroservices.Order.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.Domain.Core\obj\Debug\net7.0\CourseMicroservices.Order.Domain.Core.sourcelink.json
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.Domain.Core\obj\Debug\net7.0\CourseMicroservices.Order.Domain.Core.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.Domain.Core\obj\Debug\net7.0\refint\CourseMicroservices.Order.Domain.Core.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.Domain.Core\obj\Debug\net7.0\CourseMicroservices.Order.Domain.Core.pdb
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.Domain.Core\obj\Debug\net7.0\ref\CourseMicroservices.Order.Domain.Core.dll

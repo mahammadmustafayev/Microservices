@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{828238E4-2F32-4A04-9C6B-646649532C91}|Services\\Discount\\CourseMicroservices.Discount\\CourseMicroservices.Discount.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\discount\\coursemicroservices.discount\\scripts\\dbdiscount sql.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{828238E4-2F32-4A04-9C6B-646649532C91}|Services\\Discount\\CourseMicroservices.Discount\\CourseMicroservices.Discount.csproj|solutionrelative:services\\discount\\coursemicroservices.discount\\scripts\\dbdiscount sql.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{ED76CBB4-0A50-43AE-B27F-186351230553}|Services\\FakePayment\\CourseMicroservices.FakePayment\\CourseMicroservices.FakePayment.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\fakepayment\\coursemicroservices.fakepayment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED76CBB4-0A50-43AE-B27F-186351230553}|Services\\FakePayment\\CourseMicroservices.FakePayment\\CourseMicroservices.FakePayment.csproj|solutionrelative:services\\fakepayment\\coursemicroservices.fakepayment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbDiscount sql.txt",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Discount\\CourseMicroservices.Discount\\Scripts\\dbDiscount sql.txt",
-              "RelativeDocumentMoniker": "Services\\Discount\\CourseMicroservices.Discount\\Scripts\\dbDiscount sql.txt",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Discount\\CourseMicroservices.Discount\\Scripts\\dbDiscount sql.txt",
-              "RelativeToolTip": "Services\\Discount\\CourseMicroservices.Discount\\Scripts\\dbDiscount sql.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-18T15:21:53.299Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\FakePayment\\CourseMicroservices.FakePayment\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Services\\FakePayment\\CourseMicroservices.FakePayment\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\FakePayment\\CourseMicroservices.FakePayment\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Services\\FakePayment\\CourseMicroservices.FakePayment\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T17:43:42.267Z",
               "EditorCaption": ""
             }
           ]

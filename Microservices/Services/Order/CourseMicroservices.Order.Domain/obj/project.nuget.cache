@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VOw157NevmJeqOmJsc6c68udKT48tIkqCFmxuCiAFKy3+busXU3xNWhpY857+b2FlDPK7WERzuyKEykJGx2WTw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\Services\\Order\\CourseMicroservices.Order.Domain\\CourseMicroservices.Order.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\musta\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\musta\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\musta\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\musta\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
