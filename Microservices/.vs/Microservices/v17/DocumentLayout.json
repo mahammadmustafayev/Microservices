@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\gateways\\course.gateway\\configuration.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|solutionrelative:gateways\\course.gateway\\configuration.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\identityserver\\coursemicroservices.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj|solutionrelative:identityserver\\coursemicroservices.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\gateways\\course.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|solutionrelative:gateways\\course.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\identityserver\\coursemicroservices.identityserver\\course.identityserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F1F99E5C-8210-4B37-B531-784B52A25834}|IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj|solutionrelative:identityserver\\coursemicroservices.identityserver\\course.identityserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\gateways\\course.gateway\\configuration.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|solutionrelative:gateways\\course.gateway\\configuration.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "configuration.development.json",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\configuration.development.json",
-              "RelativeDocumentMoniker": "Gateways\\Course.Gateway\\configuration.development.json",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\configuration.development.json",
-              "RelativeToolTip": "Gateways\\Course.Gateway\\configuration.development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-20T18:09:07.034Z",
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Config.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\CourseMicroservices.IdentityServer\\Config.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Config.cs",
+              "RelativeToolTip": "IdentityServer\\CourseMicroservices.IdentityServer\\Config.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T07:46:43.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\Program.cs",
-              "RelativeDocumentMoniker": "Gateways\\Course.Gateway\\Program.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\Program.cs",
-              "RelativeToolTip": "Gateways\\Course.Gateway\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T18:05:50.373Z",
+              "Title": "Course.IdentityServer",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj",
+              "RelativeDocumentMoniker": "IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj",
+              "RelativeToolTip": "IdentityServer\\CourseMicroservices.IdentityServer\\Course.IdentityServer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-21T07:46:40.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "configuration.development.json",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\configuration.development.json",
+              "RelativeDocumentMoniker": "Gateways\\Course.Gateway\\configuration.development.json",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\configuration.development.json",
+              "RelativeToolTip": "Gateways\\Course.Gateway\\configuration.development.json",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-21T07:41:15.975Z",
               "EditorCaption": ""
             }
           ]
