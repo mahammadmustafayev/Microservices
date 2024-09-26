@@ -59,6 +59,7 @@ namespace Course.IdentityServer
                             UserName = "mahammad213",
                             Email = "backtestevo@gmail.com",
                             City = "Baku"
+
                         }, "Password213*").Wait();
                     }
                 }

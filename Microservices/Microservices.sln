@@ -11,7 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMicroservices.Catalog
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}"
 	ProjectSection(SolutionItems) = preProject
-		migrations.txt = migrations.txt
 		Ports.txt = Ports.txt
 	EndProjectSection
 EndProject
@@ -53,7 +52,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMicroservices.FakePay
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{79F758D1-E7A6-409E-AAF3-FACB1A71452B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Gateway", "Gateways\Course.Gateway\Course.Gateway.csproj", "{3BB14E6B-53B7-491E-904E-8C76C0388F97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Gateway", "Gateways\Course.Gateway\Course.Gateway.csproj", "{3BB14E6B-53B7-491E-904E-8C76C0388F97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnds", "FrontEnds", "{7DDAFF92-5631-417D-9607-0A94FD8804DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Web", "FrontEnds\Course.Web\Course.Web.csproj", "{8E597D2D-72E7-4CA0-8C75-9D1572585884}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +116,10 @@ Global
 		{3BB14E6B-53B7-491E-904E-8C76C0388F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BB14E6B-53B7-491E-904E-8C76C0388F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB14E6B-53B7-491E-904E-8C76C0388F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E597D2D-72E7-4CA0-8C75-9D1572585884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E597D2D-72E7-4CA0-8C75-9D1572585884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E597D2D-72E7-4CA0-8C75-9D1572585884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E597D2D-72E7-4CA0-8C75-9D1572585884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,6 +144,7 @@ Global
 		{FED60762-EE41-407E-96A5-6A1B8D548BE9} = {CD17F405-AE91-4140-A889-C89D56AAFAB0}
 		{ED76CBB4-0A50-43AE-B27F-186351230553} = {FED60762-EE41-407E-96A5-6A1B8D548BE9}
 		{3BB14E6B-53B7-491E-904E-8C76C0388F97} = {79F758D1-E7A6-409E-AAF3-FACB1A71452B}
+		{8E597D2D-72E7-4CA0-8C75-9D1572585884} = {7DDAFF92-5631-417D-9607-0A94FD8804DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7611A231-C3A7-47EC-BA99-17633C5C6D45}

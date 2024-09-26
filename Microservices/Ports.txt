@@ -7,3 +7,6 @@ OrderAPI ---  http://localhost:5015/swagger/index.html
 FakePaymentAPI ---  http://localhost:5016/swagger/index.html 
 
 Gateway ---  http://localhost:5000/ 
+
+
+WebUI ---  http://localhost:5010/ 
