@@ -1,4 +1,5 @@
-﻿using Course.Web.Models;
+﻿using Course.Web.Handler;
+using Course.Web.Models;
 using Course.Web.Services;
 using Course.Web.Services.Interfaces;
 
@@ -9,7 +10,20 @@ public static class ServiceExtension
     public static void AddHttpClientServices(this IServiceCollection services, IConfiguration Configuration)
     {
         var serviceApiSettings = Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
-        // services.AddHttpClient<IClientCredentialTokenService, ClientCredentialTokenService>();
+        services.AddHttpClient<IClientCredentialTokenService, ClientCredentialTokenService>();
         services.AddHttpClient<IIdentityService, IdentityService>();
+
+
+        services.AddHttpClient<ICatalogService, CatalogService>(opt =>
+        {
+            opt.BaseAddress = new Uri($"{serviceApiSettings.GatewayBaseUri}/{serviceApiSettings.Catalog.Path}");
+        }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
+
+
+        services.AddHttpClient<IUserService, UserService>(opt =>
+        {
+            opt.BaseAddress = new Uri(serviceApiSettings.IdentityBaseUri);
+        }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
     }
 }

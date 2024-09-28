@@ -1,8 +1,7 @@
 using Course.Shared.Services;
+using Course.Web.Extension;
 using Course.Web.Handler;
 using Course.Web.Models;
-using Course.Web.Services;
-using Course.Web.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,20 +14,17 @@ builder.Services.AddControllersWithViews();
 builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection("ClientSettings"));
 builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection("ServiceApiSettings"));
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddAccessTokenManagement();
 
-var serviceApiSettings = builder.Configuration.GetSection("ServiceApiSettings").Get<ServiceApiSettings>();
 builder.Services.AddScoped<ISharedIdentityService, SharedIdentityService>();
 
 builder.Services.AddScoped<ResourceOwnerPasswordTokenHandler>();
+builder.Services.AddScoped<ClientCredentialTokenHandler>();
 
 
-builder.Services.AddHttpClient<IIdentityService, IdentityService>();
 
 
-builder.Services.AddHttpClient<IUserService, UserService>(opt =>
-{
-    opt.BaseAddress = new Uri(serviceApiSettings.IdentityBaseUri);
-}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+builder.Services.AddHttpClientServices(builder.Configuration);
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, opts =>
