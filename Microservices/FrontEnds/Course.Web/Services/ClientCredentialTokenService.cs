@@ -13,10 +13,7 @@ public class ClientCredentialTokenService : IClientCredentialTokenService
     private readonly IClientAccessTokenCache _clientAccessTokenCache;
     private readonly HttpClient _httpClient;
 
-    public ClientCredentialTokenService(IOptions<ServiceApiSettings> serviceApiSettings,
-        IOptions<ClientSettings> clientSettings,
-        IClientAccessTokenCache clientAccessTokenCache,
-        HttpClient httpClient)
+    public ClientCredentialTokenService(IOptions<ServiceApiSettings> serviceApiSettings, IOptions<ClientSettings> clientSettings, IClientAccessTokenCache clientAccessTokenCache, HttpClient httpClient)
     {
         _serviceApiSettings = serviceApiSettings.Value;
         _clientSettings = clientSettings.Value;
@@ -27,6 +24,7 @@ public class ClientCredentialTokenService : IClientCredentialTokenService
     public async Task<string> GetToken()
     {
         var currentToken = await _clientAccessTokenCache.GetAsync("WebClientToken", null);
+
         if (currentToken != null)
         {
             return currentToken.AccessToken;
@@ -37,6 +35,7 @@ public class ClientCredentialTokenService : IClientCredentialTokenService
             Address = _serviceApiSettings.IdentityBaseUri,
             Policy = new DiscoveryPolicy { RequireHttps = false }
         });
+
         if (disco.IsError)
         {
             throw disco.Exception;

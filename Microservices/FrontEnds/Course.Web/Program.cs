@@ -1,6 +1,7 @@
 using Course.Shared.Services;
 using Course.Web.Extension;
 using Course.Web.Handler;
+using Course.Web.Helpers;
 using Course.Web.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
@@ -15,7 +16,7 @@ builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection("Cli
 builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection("ServiceApiSettings"));
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAccessTokenManagement();
-
+builder.Services.AddSingleton<PhotoHelper>();
 builder.Services.AddScoped<ISharedIdentityService, SharedIdentityService>();
 
 builder.Services.AddScoped<ResourceOwnerPasswordTokenHandler>();

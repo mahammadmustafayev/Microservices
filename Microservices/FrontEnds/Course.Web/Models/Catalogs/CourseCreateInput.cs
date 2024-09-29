@@ -15,6 +15,7 @@ public class CourseCreateInput
 
 
     public string UserId { get; set; }
+    public string Picture { get; set; }
 
     public FeatureViewModel Feature { get; set; }
 
@@ -23,5 +24,4 @@ public class CourseCreateInput
 
     [Display(Name = "Course picture")]
     public IFormFile PhotoFormFile { get; set; }
-    public string Picture { get; set; }
 }

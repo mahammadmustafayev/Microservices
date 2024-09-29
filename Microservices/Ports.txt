@@ -2,7 +2,7 @@ IdentityServer --- https://localhost:5001
 CatalogAPI --- http://localhost:5011/swagger/index.html
 PhotoStockAPI ---  http://localhost:5012/swagger/index.html 
 BasketAPI ---  http://localhost:5013/swagger/index.html 
-BasketAPI ---  http://localhost:5014/swagger/index.html 
+DiscountAPI ---  http://localhost:5014/swagger/index.html 
 OrderAPI ---  http://localhost:5015/swagger/index.html 
 FakePaymentAPI ---  http://localhost:5016/swagger/index.html 
 

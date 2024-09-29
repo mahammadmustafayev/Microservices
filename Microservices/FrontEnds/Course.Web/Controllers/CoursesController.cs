@@ -34,11 +34,11 @@ public class CoursesController : Controller
     {
         var categories = await _catalogService.GetAllCategoryAsync();
         ViewBag.categoryList = new SelectList(categories, "Id", "Name");
+        courseCreateInput.UserId = _sharedIdentityService.GetUserId;
         if (!ModelState.IsValid)
         {
             return View();
         }
-        courseCreateInput.UserId = _sharedIdentityService.GetUserId;
 
         await _catalogService.CreateCourseAsync(courseCreateInput);
 
@@ -64,11 +64,11 @@ public class CoursesController : Controller
             Feature = course.Feature,
             CategoryId = course.CategoryId,
             UserId = course.UserId,
-            //Picture= course.Picture,
+            Picture = course.Picture,
         };
         return View(courseUpdateInput);
     }
-    [HttpPut]
+    [HttpPost]
     public async Task<IActionResult> Update(CourseUpdateInput courseUpdateInput)
     {
         var categories = await _catalogService.GetAllCategoryAsync();
