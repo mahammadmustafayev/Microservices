@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "x2F8vVUQqYJRJTASi6YOwogGrkLYidOqtHL1StGvUaYwaqKQ4yCvK5XEIXnJhJYmyz4N3zFhIulZzyYFfzuBTw==",
+  "dgSpecHash": "Whf8bGyex4HN8erF4W/ab87WrdG0az5jMXC5uEhGme3AERKilcPDni+Rdf0me8+3nWieO952KP9SNINCjdYQ0g==",
   "success": true,
   "projectFilePath": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Course.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\musta\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\musta\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\musta\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\musta\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\musta\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\musta\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

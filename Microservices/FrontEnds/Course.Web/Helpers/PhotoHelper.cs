@@ -11,6 +11,7 @@ public class PhotoHelper
     {
         _serviceApiSettings = serviceApiSettings.Value;
     }
+
     public string GetPhotoStockUrl(string photoUrl)
     {
         return $"{_serviceApiSettings.PhotoStockUri}/photos/{photoUrl}";

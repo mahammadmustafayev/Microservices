@@ -11,19 +11,19 @@ public class ResourceOwnerPasswordTokenHandler : DelegatingHandler
     private readonly IIdentityService _identityService;
     private readonly ILogger<ResourceOwnerPasswordTokenHandler> _logger;
 
-    public ResourceOwnerPasswordTokenHandler(IHttpContextAccessor httpContextAccessor,
-        IIdentityService identityService, ILogger<ResourceOwnerPasswordTokenHandler> logger)
+    public ResourceOwnerPasswordTokenHandler(IHttpContextAccessor httpContextAccessor, IIdentityService identityService, ILogger<ResourceOwnerPasswordTokenHandler> logger)
     {
         _httpContextAccessor = httpContextAccessor;
         _identityService = identityService;
         _logger = logger;
     }
 
-    protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+    protected async override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
     {
         var accessToken = await _httpContextAccessor.HttpContext.GetTokenAsync(OpenIdConnectParameterNames.AccessToken);
 
         request.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", accessToken);
+
         var response = await base.SendAsync(request, cancellationToken);
 
         if (response.StatusCode == System.Net.HttpStatusCode.Unauthorized)
@@ -32,7 +32,8 @@ public class ResourceOwnerPasswordTokenHandler : DelegatingHandler
 
             if (tokenResponse != null)
             {
-                request.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", accessToken);
+                request.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", tokenResponse.AccessToken);
+
                 response = await base.SendAsync(request, cancellationToken);
             }
         }
@@ -41,6 +42,7 @@ public class ResourceOwnerPasswordTokenHandler : DelegatingHandler
         {
             throw new UnAuthorizeException();
         }
+
         return response;
     }
 }

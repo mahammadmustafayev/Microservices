@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration.AddJsonFile($"configuration.{builder.Environment.EnvironmentName.ToLower()}.json");
 
+
 builder.Services.AddAuthentication().AddJwtBearer("GatewayAuthenticationScheme", options =>
 {
     options.Authority = builder.Configuration["IdentityServerURL"];
@@ -16,11 +17,11 @@ builder.Services.AddOcelot();
 
 var app = builder.Build();
 
+// Configure the HTTP request pipeline.
+
+
 app.UseAuthorization();
 app.UseDeveloperExceptionPage();
 app.MapControllers();
-//app.MapGet("/", () => "Hello World!");
-
 await app.UseOcelot();
-
 app.Run();

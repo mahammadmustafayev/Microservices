@@ -27,8 +27,14 @@ public class CategoriesController : CustomeBaseController
         var response = await _categoryService.GetByIdAsync(id);
         return CreateActionResultInstance(response);
     }
+    //[HttpPost]
+    //public async Task<IActionResult> Create(CategoryCreateDTO categoryCreateDTO)
+    //{
+    //    var response = await _categoryService.CreateAsync(categoryCreateDTO);
+    //    return CreateActionResultInstance(response);
+    //}
     [HttpPost]
-    public async Task<IActionResult> Create(CategoryCreateDTO categoryCreateDTO)
+    public async Task<IActionResult> Create(CategoryDTO categoryCreateDTO)
     {
         var response = await _categoryService.CreateAsync(categoryCreateDTO);
         return CreateActionResultInstance(response);

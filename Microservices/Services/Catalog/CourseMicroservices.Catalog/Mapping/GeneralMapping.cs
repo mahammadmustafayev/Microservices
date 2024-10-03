@@ -10,7 +10,6 @@ public class GeneralMapping : Profile
     {
         CreateMap<Models.Course, CourseDTO>().ReverseMap();
         CreateMap<Category, CategoryDTO>().ReverseMap();
-        CreateMap<Category, CategoryCreateDTO>().ReverseMap();
         CreateMap<Feature, FeatureDTO>().ReverseMap();
 
         CreateMap<Models.Course, CourseCreateDTO>().ReverseMap();

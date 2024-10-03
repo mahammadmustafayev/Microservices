@@ -1,11 +1,13 @@
 ﻿using Course.Shared.Services;
 using Course.Web.Models.Catalogs;
 using Course.Web.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Course.Web.Controllers;
 
+[Authorize]
 public class CoursesController : Controller
 {
     private readonly ICatalogService _catalogService;
@@ -21,6 +23,7 @@ public class CoursesController : Controller
     {
         return View(await _catalogService.GetAllCourseByUserIdAsync(_sharedIdentityService.GetUserId));
     }
+
     public async Task<IActionResult> Create()
     {
         var categories = await _catalogService.GetAllCategoryAsync();
@@ -29,13 +32,15 @@ public class CoursesController : Controller
 
         return View();
     }
+
     [HttpPost]
     public async Task<IActionResult> Create(CourseCreateInput courseCreateInput)
     {
         var categories = await _catalogService.GetAllCategoryAsync();
         ViewBag.categoryList = new SelectList(categories, "Id", "Name");
         courseCreateInput.UserId = _sharedIdentityService.GetUserId;
-        if (!ModelState.IsValid)
+        courseCreateInput.Picture = "not";
+        if (ModelState.IsValid)
         {
             return View();
         }
@@ -48,10 +53,11 @@ public class CoursesController : Controller
     public async Task<IActionResult> Update(string id)
     {
         var course = await _catalogService.GetByCourseId(id);
-        var categories = await _catalogService.GetAllCourseAsync();
+        var categories = await _catalogService.GetAllCategoryAsync();
 
         if (course == null)
         {
+            //mesaj göster
             RedirectToAction(nameof(Index));
         }
         ViewBag.categoryList = new SelectList(categories, "Id", "Name", course.Id);
@@ -64,10 +70,12 @@ public class CoursesController : Controller
             Feature = course.Feature,
             CategoryId = course.CategoryId,
             UserId = course.UserId,
-            Picture = course.Picture,
+            Picture = course.Picture
         };
+
         return View(courseUpdateInput);
     }
+
     [HttpPost]
     public async Task<IActionResult> Update(CourseUpdateInput courseUpdateInput)
     {
@@ -82,10 +90,10 @@ public class CoursesController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-
     public async Task<IActionResult> Delete(string id)
     {
         await _catalogService.DeleteCourseAsync(id);
+
         return RedirectToAction(nameof(Index));
     }
 }

@@ -47,8 +47,11 @@ using (var scope = app.Services.CreateScope())
 
     if (!(await categoryService.GetAllAsync()).Data.Any())
     {
-        await categoryService.CreateAsync(new CategoryCreateDTO { Name = "Asp.net Core Kursu" });
-        await categoryService.CreateAsync(new CategoryCreateDTO { Name = "Asp.net Core API Kursu" });
+        //await categoryService.CreateAsync(new CategoryCreateDTO { Name = "Asp.net Core Kursu" });
+        //await categoryService.CreateAsync(new CategoryCreateDTO { Name = "Asp.net Core API Kursu" });
+
+        await categoryService.CreateAsync(new CategoryDTO { Name = "Asp.net Core Kursu" });
+        await categoryService.CreateAsync(new CategoryDTO { Name = "Asp.net Core API Kursu" });
     }
 }
 
