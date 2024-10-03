@@ -19,36 +19,22 @@ public class PhotoStockService : IPhotoStockService
         return response.IsSuccessStatusCode;
     }
 
-    public async Task<PhotoViewModel> UploadPhoto(IFormFile photoFile)
+    public async Task<PhotoViewModel> UploadPhoto(IFormFile photo)
     {
-        if (photoFile == null || photoFile.Length <= 0)
+        if (photo == null || photo.Length <= 0)
         {
             return null;
         }
         // örnek dosya ismi= 203802340234.jpg
-        var randonFilename = $"{Guid.NewGuid()}{Path.GetExtension(photoFile.FileName)}";
+        var randonFilename = $"{Guid.NewGuid().ToString()}{Path.GetExtension(photo.FileName)}";
 
         using var ms = new MemoryStream();
 
-        await photoFile.CopyToAsync(ms);
-
-        ms.Position = 0;
+        await photo.CopyToAsync(ms);
 
         var multipartContent = new MultipartFormDataContent();
 
-        //var streamContent = new StreamContent(ms);
-        //streamContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(photo.ContentType);
-        //multipartContent.Add(streamContent, "photo", randonFilename);
-        if (ms.CanRead && ms.CanWrite)
-        {
-            multipartContent.Add(new ByteArrayContent(ms.ToArray()), "photo", randonFilename);
-
-        }
-        else
-        {
-            return null;
-        }
-
+        multipartContent.Add(new ByteArrayContent(ms.ToArray()), "photo", randonFilename);
 
         var response = await _httpClient.PostAsync("photos", multipartContent);
 
@@ -59,6 +45,6 @@ public class PhotoStockService : IPhotoStockService
 
         var responseSuccess = await response.Content.ReadFromJsonAsync<Response<PhotoViewModel>>();
 
-        return responseSuccess?.Data;
+        return responseSuccess.Data;
     }
 }

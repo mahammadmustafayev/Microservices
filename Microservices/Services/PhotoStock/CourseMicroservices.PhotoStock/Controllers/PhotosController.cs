@@ -10,24 +10,26 @@ namespace CourseMicroservices.PhotoStock.Controllers;
 public class PhotosController : CustomeBaseController
 {
     [HttpPost]
-    public async Task<IActionResult> PhotoSave(IFormFile photoFile, CancellationToken cancellationToken)
+    public async Task<IActionResult> PhotoSave(IFormFile photo, CancellationToken cancellationToken)
     {
-        if (photoFile != null && photoFile.Length > 0)
+        if (photo != null && photo.Length > 0)
         {
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/photos", photoFile.FileName);
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/photos", photo.FileName);
 
             using var stream = new FileStream(path, FileMode.Create);
-            await photoFile.CopyToAsync(stream, cancellationToken);
+            await photo.CopyToAsync(stream, cancellationToken);
 
-            var returnPath = photoFile.FileName;
+            var returnPath = photo.FileName;
 
-            PhotoDTO photoDTO = new() { Url = returnPath };
+            PhotoDTO photoDto = new() { Url = returnPath };
 
-            return CreateActionResultInstance(Response<PhotoDTO>.Success(photoDTO, 200));
+            return CreateActionResultInstance(Response<PhotoDTO>.Success(photoDto, 200));
         }
-        return CreateActionResultInstance(Response<PhotoDTO>.Fail("photo is empty", 400));
 
+        return CreateActionResultInstance(Response<PhotoDTO>.Fail("photo is empty", 400));
     }
+
+
     [HttpDelete]
     public IActionResult PhotoDelete(string photoUrl)
     {
@@ -35,11 +37,10 @@ public class PhotosController : CustomeBaseController
         if (!System.IO.File.Exists(path))
         {
             return CreateActionResultInstance(Response<NoContent>.Fail("photo not found", 404));
-
         }
+
         System.IO.File.Delete(path);
 
         return CreateActionResultInstance(Response<NoContent>.Success(204));
-
     }
 }

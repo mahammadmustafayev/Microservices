@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\frontends\\course.web\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|solutionrelative:frontends\\course.web\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\frontends\\course.web\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|solutionrelative:frontends\\course.web\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\frontends\\course.web\\services\\photostockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|solutionrelative:frontends\\course.web\\services\\photostockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\frontends\\course.web\\services\\catalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|solutionrelative:frontends\\course.web\\services\\catalogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "FrontEnds\\Course.Web\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "FrontEnds\\Course.Web\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T16:36:25.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatalogService.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Services\\CatalogService.cs",
+              "RelativeDocumentMoniker": "FrontEnds\\Course.Web\\Services\\CatalogService.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Services\\CatalogService.cs",
+              "RelativeToolTip": "FrontEnds\\Course.Web\\Services\\CatalogService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T16:24:41.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "FrontEnds\\Course.Web\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "FrontEnds\\Course.Web\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwBUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T16:24:16.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhotoStockService.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Services\\PhotoStockService.cs",
+              "RelativeDocumentMoniker": "FrontEnds\\Course.Web\\Services\\PhotoStockService.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Services\\PhotoStockService.cs",
+              "RelativeToolTip": "FrontEnds\\Course.Web\\Services\\PhotoStockService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAqwBYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T16:25:11.483Z",
+              "EditorCaption": ""
             }
           ]
         }

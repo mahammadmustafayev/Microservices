@@ -39,7 +39,7 @@ public class CoursesController : Controller
         var categories = await _catalogService.GetAllCategoryAsync();
         ViewBag.categoryList = new SelectList(categories, "Id", "Name");
         courseCreateInput.UserId = _sharedIdentityService.GetUserId;
-        courseCreateInput.Picture = "not";
+        //courseCreateInput.Picture = "not";
         if (ModelState.IsValid)
         {
             return View();

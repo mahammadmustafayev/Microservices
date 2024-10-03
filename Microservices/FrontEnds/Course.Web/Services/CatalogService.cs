@@ -20,12 +20,12 @@ public class CatalogService : ICatalogService
 
     public async Task<bool> CreateCourseAsync(CourseCreateInput courseCreateInput)
     {
-        //var resultPhotoService = await _photoStockService.UploadPhoto(courseCreateInput.PhotoFormFile);
+        var resultPhotoService = await _photoStockService.UploadPhoto(courseCreateInput.PhotoFormFile);
 
-        //if (resultPhotoService != null)
-        //{
-        //    courseCreateInput.Picture = resultPhotoService.Url;
-        //}
+        if (resultPhotoService != null)
+        {
+            courseCreateInput.Picture = resultPhotoService.Url;
+        }
 
         var response = await _client.PostAsJsonAsync<CourseCreateInput>("courses", courseCreateInput);
 

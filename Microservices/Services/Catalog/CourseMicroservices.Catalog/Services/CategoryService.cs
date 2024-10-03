@@ -27,20 +27,14 @@ public class CategoryService : ICategoryService
         var categories = await _categoryCollection.Find(category => true).ToListAsync();
         return Response<List<CategoryDTO>>.Success(_mapper.Map<List<CategoryDTO>>(categories), 200);
     }
-    //public async Task<Response<CategoryDTO>> CreateAsync(CategoryCreateDTO categoryCreateDto)
-    //{
-    //    var category = _mapper.Map<Category>(categoryCreateDto);
-    //    await _categoryCollection.InsertOneAsync(category);
-
-    //    return Response<CategoryDTO>.Success(_mapper.Map<CategoryDTO>(category), 200);
-    //}
-    public async Task<Response<CategoryDTO>> CreateAsync(CategoryDTO categoryDto)
+    public async Task<Response<CategoryDTO>> CreateAsync(CategoryCreateDTO categoryCreateDto)
     {
-        var category = _mapper.Map<Category>(categoryDto);
+        var category = _mapper.Map<Category>(categoryCreateDto);
         await _categoryCollection.InsertOneAsync(category);
 
         return Response<CategoryDTO>.Success(_mapper.Map<CategoryDTO>(category), 200);
     }
+
 
     public async Task<Response<CategoryDTO>> GetByIdAsync(string id)
     {

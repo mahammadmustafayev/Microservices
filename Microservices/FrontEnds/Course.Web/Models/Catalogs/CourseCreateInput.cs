@@ -22,6 +22,6 @@ public class CourseCreateInput
     [Display(Name = "Course category")]
     public string CategoryId { get; set; }
 
-    //[Display(Name = "Course picture")]
-    //public IFormFile PhotoFormFile { get; set; }
+    [Display(Name = "Course picture")]
+    public IFormFile PhotoFormFile { get; set; }
 }
