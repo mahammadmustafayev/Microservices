@@ -51,7 +51,7 @@
                         </tr>
                     </table>
 
-                    @* <form asp-controller="Basket" asp-action="ApplyDiscount">
+                    <form asp-controller="Basket" asp-action="ApplyDiscount">
                         @if (Model.HasDiscount)
                         {
                             <div class="alert alert-success">
@@ -63,18 +63,18 @@
 
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" name="DiscountApplyInput.Code">
-                            <button class="btn btn-outline-secondary" type="submit">Uygula</button>
+                            <button class="btn btn-outline-secondary" type="submit">Apply</button>
                         </div>
 
-                        @if (tempdata["discountstatus"] != null && (bool)tempdata["discountstatus"] == false)
+                        @if (TempData["discountstatus"] != null && (bool)TempData["discountstatus"] == false)
                         {
-                            <div class="text-danger">indirim kodu geçersiz</div>
+                            <div class="text-danger">discount code is invalid</div>
                         }
-                        @if (tempdata["discounterror"] != null)
+                        @if (TempData["discounterror"] != null)
                         {
-                            <div class="text-danger">@tempdata["discounterror"]</div>
+                            <div class="text-danger">@TempData["discounterror"]</div>
                         } 
-                    </form> *@
+                    </form> 
                     <a class="btn btn-success" asp-controller="Order" asp-action="Checkout">Payment Information</a>
                     <a class="btn btn-warning" asp-controller="Home" asp-action="Index">Go to other courses</a>
                 }

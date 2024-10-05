@@ -7,14 +7,12 @@ namespace Course.Web.Services;
 public class BasketService : IBasketService
 {
     private readonly HttpClient _httpClient;
-    //private readonly IDiscountService _discountService;
+    private readonly IDiscountService _discountService;
 
-    public BasketService(HttpClient httpClient
-        //IDiscountService discountService
-        )
+    public BasketService(HttpClient httpClient, IDiscountService discountService)
     {
         _httpClient = httpClient;
-        //_discountService = discountService;
+        _discountService = discountService;
     }
     public async Task AddBasketItem(BasketItemViewModel basketItemViewModel)
     {
@@ -30,35 +28,32 @@ public class BasketService : IBasketService
         else
         {
             basket = new BasketViewModel();
-
             basket.BasketItems.Add(basketItemViewModel);
         }
-
         await SaveOrUpdate(basket);
     }
 
 
     public async Task<bool> ApplyDiscount(string discountCode)
     {
-        //await CancelApplyDiscount();
+        await CancelApplyDiscount();
 
-        //    var basket = await Get();
-        //    if (basket == null)
-        //    {
-        //        return false;
-        //    }
+        var basket = await Get();
+        if (basket == null)
+        {
+            return false;
+        }
 
-        //    var hasDiscount = await _discountService.GetDiscount(discountCode);
-        //    if (hasDiscount == null)
-        //    {
-        //        return false;
-        //    }
+        var hasDiscount = await _discountService.GetDiscount(discountCode);
+        if (hasDiscount == null)
+        {
+            return false;
+        }
 
-        //    basket.ApplyDiscount(hasDiscount.Code, hasDiscount.Rate);
-        //    await SaveOrUpdate(basket);
-        //    return true;
+        basket.ApplyDiscount(hasDiscount.Code, hasDiscount.Rate);
+        await SaveOrUpdate(basket);
+        return true;
 
-        throw new NotImplementedException();
     }
 
     public async Task<bool> CancelApplyDiscount()

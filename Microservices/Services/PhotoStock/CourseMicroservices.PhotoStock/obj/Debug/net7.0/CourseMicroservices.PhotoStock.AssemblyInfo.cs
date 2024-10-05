@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CourseMicroservices.PhotoStock")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc4ba91d4434e7f12b1a2bf181b5c941099ab5b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b27b4948e385ab23f7aa1c622f18c3cb4876da8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CourseMicroservices.PhotoStock")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CourseMicroservices.PhotoStock")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -28,6 +28,7 @@
 
                     <div>
                         <a asp-controller="Home" asp-action="Detail" class="btn btn-success" asp-route-id="@item.Id">Detail</a>
+                        <a asp-controller="Basket" asp-action="AddBasketItem" class="btn btn-primary" asp-route-courseId="@item.Id">Add Basket</a>
                     </div>
                 </div>
             </div>

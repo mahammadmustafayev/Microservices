@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nnoj+Nm8QAlASpQNlGzJUI1POe+9MqESkK+T71kenQo=",
+  "Hash": "GJpWCqpE0nY/I45ld9AVU1E5QO9ICI8CydAFVPOl4vA=",
   "Source": "CourseMicroservices.PhotoStock",
   "BasePath": "_content/CourseMicroservices.PhotoStock",
   "Mode": "Default",
@@ -15,5 +15,63 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\Services\\PhotoStock\\CourseMicroservices.PhotoStock\\wwwroot\\photos\\1f434fed-6649-4b11-8493-3c3c60301e21.jpg",
+      "SourceId": "CourseMicroservices.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\Services\\PhotoStock\\CourseMicroservices.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/CourseMicroservices.PhotoStock",
+      "RelativePath": "photos/1f434fed-6649-4b11-8493-3c3c60301e21.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\1f434fed-6649-4b11-8493-3c3c60301e21.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\Services\\PhotoStock\\CourseMicroservices.PhotoStock\\wwwroot\\photos\\89b9320d-1064-417a-a44d-a67790658d0c.png",
+      "SourceId": "CourseMicroservices.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\Services\\PhotoStock\\CourseMicroservices.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/CourseMicroservices.PhotoStock",
+      "RelativePath": "photos/89b9320d-1064-417a-a44d-a67790658d0c.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\89b9320d-1064-417a-a44d-a67790658d0c.png"
+    },
+    {
+      "Identity": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\Services\\PhotoStock\\CourseMicroservices.PhotoStock\\wwwroot\\photos\\bd89bfad-8f12-458b-bb52-594f72d2c042.jpg",
+      "SourceId": "CourseMicroservices.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\Services\\PhotoStock\\CourseMicroservices.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/CourseMicroservices.PhotoStock",
+      "RelativePath": "photos/bd89bfad-8f12-458b-bb52-594f72d2c042.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\bd89bfad-8f12-458b-bb52-594f72d2c042.jpg"
+    }
+  ]
 }

@@ -18,20 +18,25 @@ public class BasketsController : CustomeBaseController
         _basketService = basketService;
         _sharedIdentityService = sharedIdentityService;
     }
+
     [HttpGet]
     public async Task<IActionResult> GetBasket()
     {
         return CreateActionResultInstance(await _basketService.GetBasket(_sharedIdentityService.GetUserId));
     }
+
     [HttpPost]
-    public async Task<IActionResult> SaveOrUpdateBasket(BasketDTO basketDTO)
+    public async Task<IActionResult> SaveOrUpdateBasket(BasketDTO basketDto)
     {
-        basketDTO.UserId = _sharedIdentityService.GetUserId;
-        var response = await _basketService.SaveOrUpdate(basketDTO);
+        basketDto.UserId = _sharedIdentityService.GetUserId;
+        var response = await _basketService.SaveOrUpdate(basketDto);
+
         return CreateActionResultInstance(response);
     }
+
     [HttpDelete]
     public async Task<IActionResult> DeleteBasket()
+
     {
         return CreateActionResultInstance(await _basketService.Delete(_sharedIdentityService.GetUserId));
     }

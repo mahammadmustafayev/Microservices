@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CourseMicroservices.Basket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52454a1c34a434e6be94e9f8be31160df3002c35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b27b4948e385ab23f7aa1c622f18c3cb4876da8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CourseMicroservices.Basket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CourseMicroservices.Basket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,8 +13,6 @@ public class BasketService : IBasketService
         _redisService = redisService;
     }
 
-
-
     public async Task<Response<bool>> Delete(string userId)
     {
         var status = await _redisService.GetDb().KeyDeleteAsync(userId);
@@ -33,12 +31,10 @@ public class BasketService : IBasketService
         return Response<BasketDTO>.Success(JsonSerializer.Deserialize<BasketDTO>(existBasket), 200);
     }
 
-    public async Task<Response<bool>> SaveOrUpdate(BasketDTO basketDTO)
+    public async Task<Response<bool>> SaveOrUpdate(BasketDTO basketDto)
     {
-        var status = await _redisService.GetDb().StringSetAsync(basketDTO.UserId, JsonSerializer.Serialize(basketDTO));
+        var status = await _redisService.GetDb().StringSetAsync(basketDto.UserId, JsonSerializer.Serialize(basketDto));
 
         return status ? Response<bool>.Success(204) : Response<bool>.Fail("Basket could not update or save", 500);
-
-
     }
 }

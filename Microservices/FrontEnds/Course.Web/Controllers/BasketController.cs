@@ -1,4 +1,5 @@
 ﻿using Course.Web.Models.Baskets;
+using Course.Web.Models.Discounts;
 using Course.Web.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -26,7 +27,14 @@ public class BasketController : Controller
     {
         var course = await _catalogService.GetByCourseId(courseId);
 
-        var basketItem = new BasketItemViewModel { CourseId = course.Id, CourseName = course.Name, Price = course.Price };
+        var basketItem = new BasketItemViewModel
+        {
+            CourseId = course.Id,
+            CourseName = course.Name,
+            Price = course.Price,
+
+        };
+
 
         await _basketService.AddBasketItem(basketItem);
 
@@ -37,6 +45,18 @@ public class BasketController : Controller
     {
         var result = await _basketService.RemoveBasketItem(courseId);
 
+        return RedirectToAction(nameof(Index));
+    }
+    public async Task<IActionResult> ApplyDiscount(DiscountApplyInput discountApplyInput)
+    {
+        if (!ModelState.IsValid)
+        {
+            TempData["discountError"] = ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage).First();
+            return RedirectToAction(nameof(Index));
+        }
+        var discountStatus = await _basketService.ApplyDiscount(discountApplyInput.Code);
+
+        TempData["discountStatus"] = discountStatus;
         return RedirectToAction(nameof(Index));
     }
     public async Task<IActionResult> CancelApplyDiscount()
