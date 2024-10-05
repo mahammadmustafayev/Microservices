@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\basket\\coursemicroservices.basket\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|solutionrelative:services\\basket\\coursemicroservices.basket\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\frontends\\course.web\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|solutionrelative:frontends\\course.web\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\frontends\\course.web\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|solutionrelative:frontends\\course.web\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasketsController.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Controllers\\BasketsController.cs",
+              "RelativeDocumentMoniker": "Services\\Basket\\CourseMicroservices.Basket\\Controllers\\BasketsController.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\Controllers\\BasketsController.cs",
+              "RelativeToolTip": "Services\\Basket\\CourseMicroservices.Basket\\Controllers\\BasketsController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T09:51:22.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasketService.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Services\\BasketService.cs",
+              "RelativeDocumentMoniker": "FrontEnds\\Course.Web\\Services\\BasketService.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Services\\BasketService.cs",
+              "RelativeToolTip": "FrontEnds\\Course.Web\\Services\\BasketService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T09:37:50.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "FrontEnds\\Course.Web\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "FrontEnds\\Course.Web\\Controllers\\BasketController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwBkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T09:37:38.887Z"
             }
           ]
         }
