@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\frontends\\course.web\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|solutionrelative:frontends\\course.web\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\frontends\\course.web\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|solutionrelative:frontends\\course.web\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\frontends\\course.web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|solutionrelative:frontends\\course.web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BasketController.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Controllers\\BasketController.cs",
-              "RelativeDocumentMoniker": "FrontEnds\\Course.Web\\Controllers\\BasketController.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Controllers\\BasketController.cs",
-              "RelativeToolTip": "FrontEnds\\Course.Web\\Controllers\\BasketController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwCIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T04:47:02.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "FrontEnds\\Course.Web\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Services\\OrderService.cs",
-              "RelativeToolTip": "FrontEnds\\Course.Web\\Services\\OrderService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwBkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T04:34:45.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "FrontEnds\\Course.Web\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Controllers\\OrderController.cs",
               "RelativeToolTip": "FrontEnds\\Course.Web\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAwBcAAAAFAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwB4AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T04:00:13.829Z",
+              "WhenOpened": "2024-10-13T14:48:32.066Z",
               "EditorCaption": ""
             }
           ]

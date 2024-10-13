@@ -32,7 +32,6 @@ public class BasketController : Controller
             CourseId = course.Id,
             CourseName = course.Name,
             Price = course.Price,
-
         };
 
 

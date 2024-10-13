@@ -14,6 +14,7 @@ public class BasketService : IBasketService
         _httpClient = httpClient;
         _discountService = discountService;
     }
+
     public async Task AddBasketItem(BasketItemViewModel basketItemViewModel)
     {
         var basket = await Get();
@@ -28,11 +29,12 @@ public class BasketService : IBasketService
         else
         {
             basket = new BasketViewModel();
+
             basket.BasketItems.Add(basketItemViewModel);
         }
+
         await SaveOrUpdate(basket);
     }
-
 
     public async Task<bool> ApplyDiscount(string discountCode)
     {
@@ -53,7 +55,6 @@ public class BasketService : IBasketService
         basket.ApplyDiscount(hasDiscount.Code, hasDiscount.Rate);
         await SaveOrUpdate(basket);
         return true;
-
     }
 
     public async Task<bool> CancelApplyDiscount()
@@ -76,7 +77,6 @@ public class BasketService : IBasketService
 
         return result.IsSuccessStatusCode;
     }
-
 
     public async Task<BasketViewModel> Get()
     {
@@ -129,4 +129,5 @@ public class BasketService : IBasketService
 
         return response.IsSuccessStatusCode;
     }
+
 }

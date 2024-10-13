@@ -13,15 +13,14 @@ public class OrderService : IOrderService
     private readonly IBasketService _basketService;
     private readonly ISharedIdentityService _sharedIdentityService;
 
-    public OrderService(IPaymentService paymentService,
-        HttpClient httpClient, IBasketService basketService,
-        ISharedIdentityService sharedIdentityService)
+    public OrderService(IPaymentService paymentService, HttpClient httpClient, IBasketService basketService, ISharedIdentityService sharedIdentityService)
     {
         _paymentService = paymentService;
         _httpClient = httpClient;
         _basketService = basketService;
         _sharedIdentityService = sharedIdentityService;
     }
+
     public async Task<OrderCreatedViewModel> CreateOrder(CheckoutInfoInput checkoutInfoInput)
     {
         var basket = await _basketService.Get();
@@ -38,31 +37,18 @@ public class OrderService : IOrderService
 
         if (!responsePayment)
         {
-            return new OrderCreatedViewModel() { Error = "Payment could not be received", IsSuccessful = false };
+            return new OrderCreatedViewModel() { Error = "Ödeme alınamadı", IsSuccessful = false };
         }
 
         var orderCreateInput = new OrderCreateInput()
         {
             BuyerId = _sharedIdentityService.GetUserId,
-            Address = new AddressCreateInput
-            {
-                Province = checkoutInfoInput.Province,
-                District = checkoutInfoInput.District,
-                Street = checkoutInfoInput.Street,
-                Line = checkoutInfoInput.Line,
-                ZipCode = checkoutInfoInput.ZipCode
-            },
+            Address = new AddressCreateInput { Province = checkoutInfoInput.Province, District = checkoutInfoInput.District, Street = checkoutInfoInput.Street, Line = checkoutInfoInput.Line, ZipCode = checkoutInfoInput.ZipCode },
         };
 
         basket.BasketItems.ForEach(x =>
         {
-            var orderItem = new OrderItemCreateInput
-            {
-                ProductId = x.CourseId,
-                Price = x.GetCurrentPrice,
-                PictureUrl = "",
-                ProductName = x.CourseName
-            };
+            var orderItem = new OrderItemCreateInput { ProductId = x.CourseId, Price = x.GetCurrentPrice, PictureUrl = "", ProductName = x.CourseName };
             orderCreateInput.OrderItems.Add(orderItem);
         });
 
@@ -70,7 +56,7 @@ public class OrderService : IOrderService
 
         if (!response.IsSuccessStatusCode)
         {
-            return new OrderCreatedViewModel() { Error = "Order could not be created", IsSuccessful = false };
+            return new OrderCreatedViewModel() { Error = "Sipariş oluşturulamadı", IsSuccessful = false };
         }
 
         var orderCreatedViewModel = await response.Content.ReadFromJsonAsync<Response<OrderCreatedViewModel>>();
@@ -93,25 +79,12 @@ public class OrderService : IOrderService
         var orderCreateInput = new OrderCreateInput()
         {
             BuyerId = _sharedIdentityService.GetUserId,
-            Address = new AddressCreateInput
-            {
-                Province = checkoutInfoInput.Province,
-                District = checkoutInfoInput.District,
-                Street = checkoutInfoInput.Street,
-                Line = checkoutInfoInput.Line,
-                ZipCode = checkoutInfoInput.ZipCode
-            },
+            Address = new AddressCreateInput { Province = checkoutInfoInput.Province, District = checkoutInfoInput.District, Street = checkoutInfoInput.Street, Line = checkoutInfoInput.Line, ZipCode = checkoutInfoInput.ZipCode },
         };
 
         basket.BasketItems.ForEach(x =>
         {
-            var orderItem = new OrderItemCreateInput
-            {
-                ProductId = x.CourseId,
-                Price = x.GetCurrentPrice,
-                PictureUrl = "",
-                ProductName = x.CourseName
-            };
+            var orderItem = new OrderItemCreateInput { ProductId = x.CourseId, Price = x.GetCurrentPrice, PictureUrl = "", ProductName = x.CourseName };
             orderCreateInput.OrderItems.Add(orderItem);
         });
 
@@ -129,7 +102,7 @@ public class OrderService : IOrderService
 
         if (!responsePayment)
         {
-            return new OrderSuspendViewModel() { Error = "Payment could not be received", IsSuccessful = false };
+            return new OrderSuspendViewModel() { Error = "Payment isnot completed", IsSuccessful = false };
         }
 
         await _basketService.Delete();

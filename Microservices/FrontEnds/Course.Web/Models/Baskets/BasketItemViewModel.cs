@@ -8,7 +8,6 @@ public class BasketItemViewModel
     public string CourseName { get; set; }
 
 
-
     public decimal Price { get; set; }
 
     private decimal? DiscountAppliedPrice;
