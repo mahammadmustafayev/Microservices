@@ -57,3 +57,9 @@ C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Catalog\
 C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Catalog\CourseMicroservices.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Catalog\CourseMicroservices.Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Catalog\CourseMicroservices.Catalog\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Catalog\CourseMicroservices.Catalog\bin\Debug\net7.0\MassTransit.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Catalog\CourseMicroservices.Catalog\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Catalog\CourseMicroservices.Catalog\bin\Debug\net7.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Catalog\CourseMicroservices.Catalog\bin\Debug\net7.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Catalog\CourseMicroservices.Catalog\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Catalog\CourseMicroservices.Catalog\bin\Debug\net7.0\RabbitMQ.Client.dll

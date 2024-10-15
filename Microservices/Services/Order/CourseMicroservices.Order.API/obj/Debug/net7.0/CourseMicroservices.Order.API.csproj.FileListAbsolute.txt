@@ -90,3 +90,9 @@ C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\Co
 C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.API\bin\Debug\net7.0\CourseMicroservices.Order.Domain.Core.dll
 C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.API\bin\Debug\net7.0\CourseMicroservices.Order.Domain.Core.pdb
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.API\bin\Debug\net7.0\MassTransit.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.API\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.API\bin\Debug\net7.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.API\bin\Debug\net7.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.API\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\musta\OneDrive\Masaüstü\Microservices\Microservices\Services\Order\CourseMicroservices.Order.API\bin\Debug\net7.0\RabbitMQ.Client.dll

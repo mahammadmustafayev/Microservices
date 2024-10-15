@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\frontends\\course.web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E597D2D-72E7-4CA0-8C75-9D1572585884}|FrontEnds\\Course.Web\\Course.Web.csproj|solutionrelative:frontends\\course.web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\basket\\coursemicroservices.basket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CEB92368-541C-4B3B-AE94-B7ABF1386588}|Services\\Basket\\CourseMicroservices.Basket\\CourseMicroservices.Basket.csproj|solutionrelative:services\\basket\\coursemicroservices.basket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F80AF4-E036-47CE-A720-6B001AE4BBFA}|Services\\Order\\CourseMicroservices.Order.Application\\CourseMicroservices.Order.Application.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\order\\coursemicroservices.order.application\\consumers\\coursenamechangedeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3F80AF4-E036-47CE-A720-6B001AE4BBFA}|Services\\Order\\CourseMicroservices.Order.Application\\CourseMicroservices.Order.Application.csproj|solutionrelative:services\\order\\coursemicroservices.order.application\\consumers\\coursenamechangedeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C06166F-E1BF-43F6-AE84-1917BEE3519F}|Services\\Catalog\\CourseMicroservices.Catalog\\CourseMicroservices.Catalog.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\services\\catalog\\coursemicroservices.catalog\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C06166F-E1BF-43F6-AE84-1917BEE3519F}|Services\\Catalog\\CourseMicroservices.Catalog\\CourseMicroservices.Catalog.csproj|solutionrelative:services\\catalog\\coursemicroservices.catalog\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "FrontEnds\\Course.Web\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\FrontEnds\\Course.Web\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "FrontEnds\\Course.Web\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwB4AAAA0AAAA",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Basket\\CourseMicroservices.Basket\\appsettings.json",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Basket\\CourseMicroservices.Basket\\appsettings.json",
+              "RelativeToolTip": "Services\\Basket\\CourseMicroservices.Basket\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T08:19:32.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseNameChangedEventConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Order\\CourseMicroservices.Order.Application\\Consumers\\CourseNameChangedEventConsumer.cs",
+              "RelativeDocumentMoniker": "Services\\Order\\CourseMicroservices.Order.Application\\Consumers\\CourseNameChangedEventConsumer.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Order\\CourseMicroservices.Order.Application\\Consumers\\CourseNameChangedEventConsumer.cs",
+              "RelativeToolTip": "Services\\Order\\CourseMicroservices.Order.Application\\Consumers\\CourseNameChangedEventConsumer.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAkAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T14:48:32.066Z",
+              "WhenOpened": "2024-10-15T08:18:55.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Catalog\\CourseMicroservices.Catalog\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "Services\\Catalog\\CourseMicroservices.Catalog\\Services\\CourseService.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Services\\Catalog\\CourseMicroservices.Catalog\\Services\\CourseService.cs",
+              "RelativeToolTip": "Services\\Catalog\\CourseMicroservices.Catalog\\Services\\CourseService.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAswGIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T08:18:27.402Z",
               "EditorCaption": ""
             }
           ]

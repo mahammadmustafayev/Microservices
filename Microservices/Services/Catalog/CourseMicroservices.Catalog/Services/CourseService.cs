@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Course.Shared.DTOs;
+using Course.Shared.Messages;
 using CourseMicroservices.Catalog.DTOs;
 using CourseMicroservices.Catalog.Models;
 using CourseMicroservices.Catalog.Settings;
@@ -13,7 +14,8 @@ public class CourseService : ICourseService
     private readonly IMongoCollection<Category> _categoryCollection;
 
     private readonly IMapper _mapper;
-    public CourseService(IMapper mapper, IDatabaseSettings databaseSettings)
+    private readonly MassTransit.IPublishEndpoint _publishEndpoint;
+    public CourseService(IMapper mapper, IDatabaseSettings databaseSettings, MassTransit.IPublishEndpoint publishEndpoint)
     {
         var client = new MongoClient(databaseSettings.ConnectionString);
 
@@ -23,6 +25,7 @@ public class CourseService : ICourseService
         _categoryCollection = database.GetCollection<Category>(databaseSettings.CategoryCollectionName);
 
         _mapper = mapper;
+        _publishEndpoint = publishEndpoint;
     }
 
     public async Task<Response<List<CourseDTO>>> GetAllAsync()
@@ -91,6 +94,12 @@ public class CourseService : ICourseService
         {
             return Response<NoContent>.Fail("Course not found", 404);
         }
+
+        await _publishEndpoint.Publish<CourseNameChangedEvent>(new CourseNameChangedEvent
+        {
+            CourseId = updateCourse.Id,
+            UpdatedName = courseUpdateDTO.Name
+        });
         return Response<NoContent>.Success(204);
     }
     public async Task<Response<NoContent>> DeleteAsync(string id)

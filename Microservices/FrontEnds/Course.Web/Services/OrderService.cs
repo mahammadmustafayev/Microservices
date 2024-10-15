@@ -62,7 +62,7 @@ public class OrderService : IOrderService
         var orderCreatedViewModel = await response.Content.ReadFromJsonAsync<Response<OrderCreatedViewModel>>();
 
         orderCreatedViewModel.Data.IsSuccessful = true;
-        await _basketService.Delete();
+        // await _basketService.Delete();
         return orderCreatedViewModel.Data;
     }
 
@@ -105,7 +105,7 @@ public class OrderService : IOrderService
             return new OrderSuspendViewModel() { Error = "Payment isnot completed", IsSuccessful = false };
         }
 
-        await _basketService.Delete();
+        //await _basketService.Delete();
         return new OrderSuspendViewModel() { IsSuccessful = true };
     }
 }
