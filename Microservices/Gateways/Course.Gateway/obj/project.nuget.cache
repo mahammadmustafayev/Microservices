@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lQTUxB4nEwcxDD3i/ZXNXL9rMeE5k/g0U1C/my4zm7yKFbFWo27PVjNNS2yftMk8hLi6siPFdjE+NyeqeksyPA==",
+  "dgSpecHash": "5Bg7yATqPXWvJ8xaN7G/OfX8Dcf4A3PFZLFGOaIQ3zHkX07n8RwRGjFtoamTRsVxUxxn7DwyCnG56hHvvnfPnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\musta\\OneDrive\\Masaüstü\\Microservices\\Microservices\\Gateways\\Course.Gateway\\Course.Gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\musta\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\musta\\.nuget\\packages\\identitymodel\\7.0.0\\identitymodel.7.0.0.nupkg.sha512",
     "C:\\Users\\musta\\.nuget\\packages\\ipaddressrange\\6.0.0\\ipaddressrange.6.0.0.nupkg.sha512",
     "C:\\Users\\musta\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.20\\microsoft.aspnetcore.authentication.jwtbearer.7.0.20.nupkg.sha512",
     "C:\\Users\\musta\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.14\\microsoft.aspnetcore.jsonpatch.7.0.14.nupkg.sha512",
