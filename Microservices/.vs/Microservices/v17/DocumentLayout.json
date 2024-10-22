@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\gateways\\course.gateway\\delegatehandlers\\tokenexhangedelegatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|solutionrelative:gateways\\course.gateway\\delegatehandlers\\tokenexhangedelegatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|Solution Items{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\docker.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|Solution Items{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|solutionrelative:docker.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\microservices\\microservices\\gateways\\course.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BB14E6B-53B7-491E-904E-8C76C0388F97}|Gateways\\Course.Gateway\\Course.Gateway.csproj|solutionrelative:gateways\\course.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|Solution Items{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\docker-override.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|Solution Items{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|solutionrelative:docker-override.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\Program.cs",
-              "RelativeDocumentMoniker": "Gateways\\Course.Gateway\\Program.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\Program.cs",
-              "RelativeToolTip": "Gateways\\Course.Gateway\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:09:28.283Z",
+              "DocumentIndex": 0,
+              "Title": "docker.txt",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\docker.txt",
+              "RelativeDocumentMoniker": "docker.txt",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\docker.txt",
+              "RelativeToolTip": "docker.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-22T13:46:41.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TokenExhangeDelegateHandler.cs",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\DelegateHandlers\\TokenExhangeDelegateHandler.cs",
-              "RelativeDocumentMoniker": "Gateways\\Course.Gateway\\DelegateHandlers\\TokenExhangeDelegateHandler.cs",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\Gateways\\Course.Gateway\\DelegateHandlers\\TokenExhangeDelegateHandler.cs",
-              "RelativeToolTip": "Gateways\\Course.Gateway\\DelegateHandlers\\TokenExhangeDelegateHandler.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAYwD8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:07:54.905Z",
+              "DocumentIndex": 1,
+              "Title": "docker-override.txt",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\docker-override.txt",
+              "RelativeDocumentMoniker": "docker-override.txt",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\docker-override.txt",
+              "RelativeToolTip": "docker-override.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-22T13:45:06.71Z",
               "EditorCaption": ""
             }
           ]

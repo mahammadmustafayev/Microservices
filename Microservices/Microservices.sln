@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseMicroservices.Catalog
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}"
 	ProjectSection(SolutionItems) = preProject
+		docker-override.txt = docker-override.txt
+		docker.txt = docker.txt
 		Ports.txt = Ports.txt
 	EndProjectSection
 EndProject
@@ -56,7 +58,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Gateway", "Gateways\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnds", "FrontEnds", "{7DDAFF92-5631-417D-9607-0A94FD8804DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.Web", "FrontEnds\Course.Web\Course.Web.csproj", "{8E597D2D-72E7-4CA0-8C75-9D1572585884}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.Web", "FrontEnds\Course.Web\Course.Web.csproj", "{8E597D2D-72E7-4CA0-8C75-9D1572585884}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

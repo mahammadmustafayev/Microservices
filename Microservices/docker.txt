@@ -1,0 +1,37 @@
+   
+   
+   basket.api:
+     image: baskey_api_image
+     build: 
+       context: .
+       dockerfile: Services/Basket/CourseMicroservices.Basket/Dockerfile
+   photostock.api:
+     image: photostock_api_image
+     build: 
+       context: .
+       dockerfile: Services/PhotoStock/CourseMicroservices.PhotoStock/Dockerfile
+   discount.api:
+     image: discount_api_image
+     build: 
+       context: .
+       dockerfile: Services/Discount/CourseMicroservices.Discount/Dockerfile
+   fakepayment.api:
+     image: fakepayment_api_image
+     build: 
+       context: .
+       dockerfile: Services/FakePayment/CourseMicroservices.FakePayment/Dockerfile
+   order.api:
+     image: order_api_image
+     build: 
+       context: .
+       dockerfile: Services/Order/CourseMicroservices.Order.API/Dockerfile
+   gateway.api:
+     image: gateway_api_image
+     build: 
+       context: .
+       dockerfile: Course.Gateway/Dockerfile
+   aspnetcoremvc.web:
+     image: aspnetcoremvc.web_image
+     build: 
+       context: .
+       dockerfile: FrontEnds/Course.Web/Dockerfile
