@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|Solution Items{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\docker.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|Solution Items{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|solutionrelative:docker.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|Solution Items{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\docker-override.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|Solution Items{DCC72986-E655-4F65-9B11-ECDDD0E3F09E}|solutionrelative:docker-override.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "docker.txt",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\docker.txt",
-              "RelativeDocumentMoniker": "docker.txt",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\docker.txt",
-              "RelativeToolTip": "docker.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-10-22T13:46:41.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "docker-override.txt",
-              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\docker-override.txt",
-              "RelativeDocumentMoniker": "docker-override.txt",
-              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\Microservices\\Microservices\\docker-override.txt",
-              "RelativeToolTip": "docker-override.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-10-22T13:45:06.71Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CourseMicroservices.FakePayment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+753b25e1dcaa7f5f7c6f2eb5ce3ef356d1448477")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a4f306843bd9113b96188a1dc13123a30432a52")]
 [assembly: System.Reflection.AssemblyProductAttribute("CourseMicroservices.FakePayment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CourseMicroservices.FakePayment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
